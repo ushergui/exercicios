@@ -1,0 +1,40 @@
+import pyautogui
+import time
+import pyperclip
+pyautogui.hotkey('alt', 'tab')
+time.sleep(0.5)
+
+
+for a in range(0, 3):
+    pyautogui.hotkey('ctrl', 'p')
+    time.sleep(2)
+    pyautogui.hotkey('enter')
+    time.sleep(1)
+    pyautogui.click(451, 723)
+    time.sleep(1)
+    pyautogui.hotkey('ctrl', 'v')
+    time.sleep(1)
+    pyautogui.hotkey('alt', 'l')
+    time.sleep(2)
+    pyautogui.click(1628, 194)
+    time.sleep(2)
+    pyautogui.hotkey('F2')
+    time.sleep(2)
+    pyautogui.hotkey('ctrl', 'a')
+    time.sleep(1)
+    pyautogui.hotkey('ctrl', 'c')
+    time.sleep(1)
+    pyautogui.click(1627, 162)
+    time.sleep(1)
+    pyautogui.click(button='right')
+    time.sleep(1)
+    pyautogui.hotkey('alt', 'x')
+    time.sleep(1)
+    pyautogui.click(1460, 190)
+    time.sleep(1)
+    pyautogui.hotkey('ctrl', 'v')
+    time.sleep(1)
+#pyautogui.position()
+#print(pyautogui.position())
+#pyautogui.click(1166,186)
+
